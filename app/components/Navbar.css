@@ -1,0 +1,125 @@
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: white;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #db2777; /* pink-600 */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #db2777; /* pink-600 */
+}
+
+.slide-in {
+  animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.swiper-slide-active h2,
+.swiper-slide-active p,
+.swiper-slide-active button {
+  animation: slideIn 1s forwards;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: currentColor;
+  transition: width 0.5s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.logo-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container::before,
+.logo-container::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #1a1a1a;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.logo-container::before {
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo-container::after {
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo-container:hover::before,
+.logo-container:hover::after {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nav-link {
+  animation: fadeIn 0.5s ease forwards;
+  opacity: 0;
+  animation-delay: calc(var(--index) * 0.1s);
+}
+
+/* Submenu animation */
+.submenu-enter {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+/* Text gradient effect */
+.submenu-text {
+  background: linear-gradient(to right, #ffffff 0%, #f3f3f3 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+} 
