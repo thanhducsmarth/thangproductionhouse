@@ -136,7 +136,6 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" />
                 <div className="absolute inset-x-0 bottom-0 p-6 translate-y-6 group-hover:translate-y-0 transition-transform duration-500">
                   <div className="text-white">
-                    <h3 className="text-xl font-light tracking-wider mb-2">Khoảnh Khắc Hạnh Phúc</h3>
                     <p className="text-sm text-gray-200 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">Xem chi tiết</p>
                   </div>
                 </div>
@@ -317,7 +316,7 @@ export default function Home() {
             <span className="text-sm tracking-[0.3em] text-gray-300 mb-6 block font-light">
               LIÊN HỆ
             </span>
-            <h2 className="text-4xl md:text-5xl font-light mb-8 tracking-wide playfair-font">
+            <h2 className="contact-title text-4xl md:text-5xl font-light mb-8 tracking-wide playfair-font">
               Hãy Để Chúng Tôi Giúp Bạn
             </h2>
             <div className="w-20 h-[1px] bg-white/20 mx-auto mb-8"></div>

@@ -16,7 +16,7 @@ const services = [
       { text: 'Địa điểm đẹp', icon: '❊' },
       { text: 'Ekip chuyên nghiệp', icon: '✯' }
     ],
-    image: 'https://www.pinterest.com/pin/708402216397709030/',
+    image: 'https://i.pinimg.com/736x/9c/49/70/9c49700f84dbb9a405bb41c2c52462d8.jpg',
     price: '5.000.000đ'
   },
   {
@@ -30,7 +30,7 @@ const services = [
       { text: 'Dịch vụ ẩm thực', icon: '❊' },
       { text: 'Âm thanh, ánh sáng', icon: '✯' }
     ],
-    image: 'https://www.pinterest.com/pin/9851692931349691/',
+    image: 'https://i.pinimg.com/736x/cd/d7/97/cdd797289310cc21c26ef533adabbca9.jpg',
     price: '15.000.000đ'
   },
   {
@@ -44,7 +44,7 @@ const services = [
       { text: 'Album ảnh cao cấp', icon: '❊' },
       { text: 'Quà tặng kỷ niệm', icon: '✯' }
     ],
-    image: 'https://www.pinterest.com/pin/2251868555203143/',
+    image: 'https://i.pinimg.com/736x/5a/64/b7/5a64b7a5af979f1e9ae62f77d1e78ec0.jpg',
     price: '3.000.000đ'
   }
 ];
@@ -177,7 +177,7 @@ export default function Services() {
         </div>
         <div className="max-w-4xl mx-auto px-4 text-center text-white relative">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1px] h-24 bg-gradient-to-b from-transparent via-white/30 to-transparent"></div>
-          <h2 className="text-4xl font-light mb-8 tracking-wide playfair-font opacity-0 animate-fadeInUp">
+          <h2 className="text-4xl font-light mb-8 tracking-wide playfair-font opacity-0 animate-fadeInUp contact-title">
             Để Lại Khoảnh Khắc Đẹp Nhất
           </h2>
           <p className="text-gray-400 mb-10 font-light tracking-wide text-lg max-w-xl mx-auto opacity-0 animate-fadeInUp" style={{ animationDelay: '200ms' }}>

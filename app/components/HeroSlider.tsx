@@ -99,7 +99,7 @@ const HeroSlider = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/50" />
               <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
-                <h2 className="slide-title text-6xl md:text-7xl font-light mb-6 tracking-wider playfair-font">
+                <h2 className="contact-title slide-title text-6xl md:text-7xl font-light mb-6 tracking-wider playfair-font">
                   {slide.title}
                 </h2>
                 <p className="slide-description text-lg md:text-xl max-w-2xl mb-12 tracking-wide font-light">

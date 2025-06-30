@@ -1,9 +1,9 @@
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
-// Thay thế bằng tài khoản và app password thật của bạn
-const EMAIL_USER = process.env.EMAIL_USER;
-const EMAIL_PASSWORD = process.env.EMAIL_PASSWORD; // 16 ký tự, không dấu cách
+// Thay bằng tài khoản và app password thật của bạn
+const EMAIL_USER = "thanhduckrb767@gmail.com";
+const EMAIL_PASSWORD = "qsyq fvsa suno lpyo"; // Thay bằng app password 16 ký tự
 
 console.log('EMAIL_USER:', process.env.EMAIL_USER);
 console.log('EMAIL_PASSWORD:', process.env.EMAIL_PASSWORD);
@@ -23,14 +23,14 @@ export async function POST(req: Request) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASSWORD,
+        user: EMAIL_USER,
+        pass: EMAIL_PASSWORD,
       },
     });
 
     const mailOptions = {
       from: EMAIL_USER,
-      to: 'thanhduckrb767@gmail.com',
+      to: EMAIL_USER,
       subject: `Yêu cầu tư vấn dịch vụ ${service} từ ${name}`,
       html: `
         <h3>Thông tin khách hàng:</h3>

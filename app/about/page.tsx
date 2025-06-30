@@ -6,14 +6,14 @@ import Navbar from '../components/Navbar';
 const founders = [
   {
     name: 'Trần Thanh Đức',
-    role: 'Founder & Creative Director',
+    role: 'Co-Founder',
     image: 'https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/434360483_3781747028772641_1698884527041649178_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=lOm2iliPWy0Q7kNvwEY7TQ5&_nc_oc=AdkpGeAmTCqJoEjwS-3uQfISlFfzFWjf3gAdt4Ahnr13VIOJbcxeTSveRSCEZdBKQO_PJ8IqSmRMscpxt0JhAGC3&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=NaSmoenr0iyabth6CMavkQ&oh=00_AfNo855JsUj_wFDO2qVm2pJQRR5_0H_5i_aP4hd6PUqzmQ&oe=686832D1',
-    description: 'Với hơn 10 năm kinh nghiệm trong lĩnh vực nhiếp ảnh cưới, Thanh Đức luôn mang đến những góc nhìn độc đáo và sáng tạo trong từng bức ảnh. Anh tin rằng mỗi câu chuyện tình yêu đều xứng đáng được kể một cách đặc biệt và riêng biệt.',
+    description: 'Với hơn 5 năm kinh nghiệm trong lĩnh vực nhiếp ảnh cưới, Thanh Đức luôn mang đến những góc nhìn độc đáo và sáng tạo trong từng bức ảnh. Anh tin rằng mỗi câu chuyện tình yêu đều xứng đáng được kể một cách đặc biệt và riêng biệt.',
     quote: '"Nhiếp ảnh không chỉ là việc chụp những bức ảnh đẹp, mà còn là nghệ thuật kể chuyện bằng hình ảnh"'
   },
   {
     name: 'Ông Hòa Hạnh',
-    role: 'Co-Founder & Art Director',
+    role: 'Founder',
     image: 'https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/487392042_1969357763593067_5996567816280357569_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ynSutwIWCawQ7kNvwESMIB-&_nc_oc=AdnhvTBRmwDvqHAAmIQ1AwggERuNYBUpvhuZRlzNi_MHmZDGqIQKLyIIe7mN0cl5XizsHC-BE6B66V4tiu5UpZU_&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=R1uo3IuXUOM6Z619b4HhRg&oh=00_AfMysxHLzBEjjPqSiG64NXa5rDAi-ggK2bGdWO_xUd0vIw&oe=6868301F',
     description: 'Hòa Hạnh mang trong mình niềm đam mê với nghệ thuật và thời trang. Với con mắt thẩm mỹ tinh tế, anh luôn biết cách tạo nên những khung hình độc đáo, kết hợp giữa cổ điển và hiện đại một cách hài hòa.',
     quote: '"Mỗi khoảnh khắc đều là một tác phẩm nghệ thuật đang chờ được khám phá"'
@@ -99,7 +99,7 @@ export default function About() {
       <section className="py-32 relative">
         <div className="absolute inset-0">
           <Image
-            src="/images/quote-bg.jpg"
+            src="https://lorrynsmit.photography/wp-content/uploads/2022/04/CaseyandYingPrenup-13.jpg"
             alt="Studio Background"
             fill
             className="object-cover"
@@ -108,7 +108,7 @@ export default function About() {
           <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
         </div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <h2 className="text-3xl md:text-4xl font-light mb-8 tracking-wide playfair-font italic">
+          <h2 className="contact-title text-3xl md:text-4xl font-light mb-8 tracking-wide playfair-font italic">
             "Chúng tôi không chỉ chụp ảnh cưới, chúng tôi tạo nên những kỷ niệm đáng nhớ"
           </h2>
           <div className="w-20 h-[1px] bg-white/20 mx-auto"></div>
