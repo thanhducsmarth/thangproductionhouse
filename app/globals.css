@@ -28,3 +28,10 @@ body {
 .playfair-font {
   font-family: var(--font-playfair);
 }
+
+@media (max-width: 768px) {
+  h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 500;
+  }
+}
