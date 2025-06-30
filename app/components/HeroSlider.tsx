@@ -56,7 +56,7 @@ const customStyles = `
 
 const slides = [
   {
-    image: '/images/hero-1.jpg',
+    image: 'https://www.patrickkok.com/wp-content/uploads/2020/08/Malaysia-Pre-wedding-Photographer-Gianina-Gary-8-X2.jpg',
     title: 'Khoảnh Khắc Hạnh Phúc',
     description: 'Nơi những câu chuyện tình yêu được viết nên'
   },
