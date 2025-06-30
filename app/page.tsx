@@ -10,19 +10,19 @@ const services = [
   {
     title: 'Tổ Chức Tiệc',
     description: 'Chúng tôi sẽ giúp bạn tổ chức một buổi tiệc hoàn hảo với mọi chi tiết được chăm chút kỹ lưỡng. Từ không gian đến ẩm thực, từ ánh sáng đến âm nhạc, tất cả sẽ được sắp xếp một cách tinh tế nhất.',
-    image: 'https://www.pinterest.com/pin/563018698656269/',
+    image: 'https://i.pinimg.com/736x/69/16/e5/6916e59c9471f856386ab5f4efed9e21.jpg',
     reverse: false
   },
   {
     title: 'Trang Trí',
     description: 'Tạo không gian lãng mạn và sang trọng với những mẫu trang trí độc đáo và tinh tế. Mỗi chi tiết đều được lựa chọn cẩn thận để phản ánh cá tính và phong cách của bạn.',
-    image: 'https://www.pinterest.com/pin/2533343537735298/',
+    image: 'https://i.pinimg.com/736x/1b/1c/99/1b1c99f63383a770a987b580c6281991.jpg',
     reverse: true
   },
   {
     title: 'Chụp Ảnh',
     description: 'Lưu giữ những khoảnh khắc đáng nhớ nhất của ngày trọng đại với đội ngũ nhiếp ảnh chuyên nghiệp. Mỗi bức ảnh là một câu chuyện, một kỷ niệm đẹp của tình yêu.',
-    image: 'https://www.pinterest.com/pin/3096293490126341/',
+    image: 'https://i.pinimg.com/736x/b8/34/76/b8347650fb39aec4af1ddd57327fb92f.jpg',
     reverse: false
   }
 ];
@@ -126,9 +126,9 @@ export default function Home() {
           <div className="grid grid-cols-12 auto-rows-[250px] gap-4 md:gap-6">
             {/* Main Feature Image - Extra Tall Portrait */}
             <div className="col-span-12 md:col-span-4 row-span-4">
-              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/images/gallery-1.jpg')}>
+              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('https://i.pinimg.com/736x/9f/1c/07/9f1c072b75140b7ae2f54bd642edfade.jpg')}>
                 <Image
-                  src="https://www.pinterest.com/pin/82120393200484938/"
+                  src="https://i.pinimg.com/736x/9f/1c/07/9f1c072b75140b7ae2f54bd642edfade.jpg"
                   alt="Khoảnh khắc 1"
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
@@ -145,9 +145,9 @@ export default function Home() {
 
             {/* Middle Stack - Mixed Heights */}
             <div className="col-span-12 md:col-span-4 row-span-2">
-              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/images/gallery-2.jpg')}>
+              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('https://i.pinimg.com/736x/7c/3a/5d/7c3a5db653b9855c9060dbff8ff65e03.jpg')}>
                 <Image
-                  src="https://www.pinterest.com/pin/7248049395593260/"
+                  src="https://i.pinimg.com/736x/7c/3a/5d/7c3a5db653b9855c9060dbff8ff65e03.jpg"
                   alt="Khoảnh khắc 2"
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
@@ -157,9 +157,9 @@ export default function Home() {
             </div>
 
             <div className="col-span-12 md:col-span-4 row-span-3">
-              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/images/gallery-3.jpg')}>
+              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/https://i.pinimg.com/736x/d3/2e/79/d32e79636ba8999abfd524d20593b2b8.jpg')}>
                 <Image
-                  src="https://www.pinterest.com/pin/2040762328535350/"
+                  src="https://i.pinimg.com/736x/d3/2e/79/d32e79636ba8999abfd524d20593b2b8.jpg"
                   alt="Khoảnh khắc 3"
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
@@ -169,9 +169,9 @@ export default function Home() {
             </div>
 
             <div className="col-span-12 md:col-span-4 row-span-2">
-              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/images/gallery-4.jpg')}>
+              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('https://i.pinimg.com/736x/27/78/a5/2778a500f63e8af3b642fff7e6bd9501.jpg')}>
                 <Image
-                  src="https://www.pinterest.com/pin/1970393582130366/"
+                  src="https://i.pinimg.com/736x/27/78/a5/2778a500f63e8af3b642fff7e6bd9501.jpg"
                   alt="Khoảnh khắc 4"
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
@@ -182,9 +182,9 @@ export default function Home() {
 
             {/* Right Stack - Tall Portrait */}
             <div className="col-span-12 md:col-span-4 row-span-3">
-              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/images/gallery-5.jpg')}>
+              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('https://i.pinimg.com/736x/ce/7b/87/ce7b87665bf35272ca6b5d2fa4dfb632.jpg')}>
                 <Image
-                  src="https://www.pinterest.com/pin/2040762327862141/"
+                  src="https://i.pinimg.com/736x/ce/7b/87/ce7b87665bf35272ca6b5d2fa4dfb632.jpg"
                   alt="Khoảnh khắc 5"
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
@@ -195,9 +195,9 @@ export default function Home() {
 
             {/* Bottom Row - Mixed Heights */}
             <div className="col-span-12 md:col-span-4 row-span-2">
-              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/images/gallery-6.jpg')}>
+              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('https://i.pinimg.com/736x/c7/ac/2c/c7ac2c09e22f053d79d1c4fcf4508192.jpg')}>
                 <Image
-                  src="https://www.pinterest.com/pin/633387443658825/"
+                  src="https://i.pinimg.com/736x/c7/ac/2c/c7ac2c09e22f053d79d1c4fcf4508192.jpg"
                   alt="Khoảnh khắc 6"
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
@@ -207,9 +207,9 @@ export default function Home() {
             </div>
 
             <div className="col-span-12 md:col-span-4 row-span-2">
-              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/images/gallery-7.jpg')}>
+              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('https://i.pinimg.com/736x/06/b5/ee/06b5eea6b63627313f023432e00a71fe.jpg')}>
                 <Image
-                  src="https://www.pinterest.com/pin/485896247327412557/"
+                  src="https://i.pinimg.com/736x/06/b5/ee/06b5eea6b63627313f023432e00a71fe.jpg"
                   alt="Khoảnh khắc 7"
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
@@ -222,7 +222,7 @@ export default function Home() {
               <div className="relative w-full h-full group overflow-hidden">
                 <div className="relative w-full h-full">
                   <Image
-                    src="https://www.pinterest.com/pin/914862420781465/"
+                    src="https://i.pinimg.com/736x/1f/be/4a/1fbe4aa09f8f4fb1ef6af27631a3c7f5.jpg"
                     alt="Khoảnh khắc 8"
                     fill
                     className="object-cover transition-all duration-700 group-hover:scale-105 group-hover:blur-[2px]"
@@ -303,7 +303,7 @@ export default function Home() {
       <section className="relative py-40">
         <div className="absolute inset-0">
           <Image
-            src="/images/contact-bg.jpg"
+            src="/images/contact-bg.jpghttps://lorrynsmit.photography/wp-content/uploads/2022/04/CaseyandYingPrenup-13.jpg"
             alt="Contact Background"
             fill
             className="object-cover"
