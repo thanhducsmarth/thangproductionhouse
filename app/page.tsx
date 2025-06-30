@@ -157,7 +157,7 @@ export default function Home() {
             </div>
 
             <div className="col-span-12 md:col-span-4 row-span-3">
-              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/https://i.pinimg.com/736x/d3/2e/79/d32e79636ba8999abfd524d20593b2b8.jpg')}>
+              <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('https://i.pinimg.com/736x/d3/2e/79/d32e79636ba8999abfd524d20593b2b8.jpg')}>
                 <Image
                   src="https://i.pinimg.com/736x/d3/2e/79/d32e79636ba8999abfd524d20593b2b8.jpg"
                   alt="Khoảnh khắc 3"
@@ -303,7 +303,7 @@ export default function Home() {
       <section className="relative py-40">
         <div className="absolute inset-0">
           <Image
-            src="/images/contact-bg.jpghttps://lorrynsmit.photography/wp-content/uploads/2022/04/CaseyandYingPrenup-13.jpg"
+            src="https://lorrynsmit.photography/wp-content/uploads/2022/04/CaseyandYingPrenup-13.jpg"
             alt="Contact Background"
             fill
             className="object-cover"
