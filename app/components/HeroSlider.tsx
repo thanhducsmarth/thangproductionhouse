@@ -61,12 +61,12 @@ const slides = [
     description: 'Nơi những câu chuyện tình yêu được viết nên'
   },
   {
-    image: '/images/hero-2.jpg',
+    image: 'https://i.ytimg.com/vi/EfAP9TElVYk/maxresdefault.jpg',
     title: 'Lễ Cưới Trong Mơ',
     description: 'Chúng tôi biến ước mơ của bạn thành hiện thực'
   },
   {
-    image: '/images/hero-3.jpg',
+    image: 'https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsX29mZmljZV80M19waG90b19vZl90YWl3YW5lc2VfY291cGxlX21hcnJpZWRfYmVhdXRpZnVsX184ODU4NjkwZC1kNzdhLTQ1YzYtYjRkZS04OThkMzRjNjZiZGZfMS5qcGc.jpg',
     title: 'Không Gian Lãng Mạn',
     description: 'Thiết kế độc đáo cho ngày trọng đại của bạn'
   }

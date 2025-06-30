@@ -16,7 +16,7 @@ const services = [
       { text: 'Địa điểm đẹp', icon: '❊' },
       { text: 'Ekip chuyên nghiệp', icon: '✯' }
     ],
-    image: '/images/service-1.jpg',
+    image: 'https://www.pinterest.com/pin/708402216397709030/',
     price: '5.000.000đ'
   },
   {
@@ -30,7 +30,7 @@ const services = [
       { text: 'Dịch vụ ẩm thực', icon: '❊' },
       { text: 'Âm thanh, ánh sáng', icon: '✯' }
     ],
-    image: '/images/service-2.jpg',
+    image: 'https://www.pinterest.com/pin/9851692931349691/',
     price: '15.000.000đ'
   },
   {
@@ -44,7 +44,7 @@ const services = [
       { text: 'Album ảnh cao cấp', icon: '❊' },
       { text: 'Quà tặng kỷ niệm', icon: '✯' }
     ],
-    image: '/images/service-3.jpg',
+    image: 'https://www.pinterest.com/pin/2251868555203143/',
     price: '3.000.000đ'
   }
 ];

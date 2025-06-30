@@ -10,19 +10,19 @@ const services = [
   {
     title: 'Tổ Chức Tiệc',
     description: 'Chúng tôi sẽ giúp bạn tổ chức một buổi tiệc hoàn hảo với mọi chi tiết được chăm chút kỹ lưỡng. Từ không gian đến ẩm thực, từ ánh sáng đến âm nhạc, tất cả sẽ được sắp xếp một cách tinh tế nhất.',
-    image: '/images/service-1.jpg',
+    image: 'https://www.pinterest.com/pin/563018698656269/',
     reverse: false
   },
   {
     title: 'Trang Trí',
     description: 'Tạo không gian lãng mạn và sang trọng với những mẫu trang trí độc đáo và tinh tế. Mỗi chi tiết đều được lựa chọn cẩn thận để phản ánh cá tính và phong cách của bạn.',
-    image: '/images/service-2.jpg',
+    image: 'https://www.pinterest.com/pin/2533343537735298/',
     reverse: true
   },
   {
     title: 'Chụp Ảnh',
     description: 'Lưu giữ những khoảnh khắc đáng nhớ nhất của ngày trọng đại với đội ngũ nhiếp ảnh chuyên nghiệp. Mỗi bức ảnh là một câu chuyện, một kỷ niệm đẹp của tình yêu.',
-    image: '/images/service-3.jpg',
+    image: 'https://www.pinterest.com/pin/3096293490126341/',
     reverse: false
   }
 ];
@@ -128,7 +128,7 @@ export default function Home() {
             <div className="col-span-12 md:col-span-4 row-span-4">
               <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/images/gallery-1.jpg')}>
                 <Image
-                  src="/images/gallery-1.jpg"
+                  src="https://www.pinterest.com/pin/82120393200484938/"
                   alt="Khoảnh khắc 1"
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
@@ -147,7 +147,7 @@ export default function Home() {
             <div className="col-span-12 md:col-span-4 row-span-2">
               <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/images/gallery-2.jpg')}>
                 <Image
-                  src="/images/gallery-2.jpg"
+                  src="https://www.pinterest.com/pin/7248049395593260/"
                   alt="Khoảnh khắc 2"
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
@@ -159,7 +159,7 @@ export default function Home() {
             <div className="col-span-12 md:col-span-4 row-span-3">
               <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/images/gallery-3.jpg')}>
                 <Image
-                  src="/images/gallery-3.jpg"
+                  src="https://www.pinterest.com/pin/2040762328535350/"
                   alt="Khoảnh khắc 3"
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
@@ -171,7 +171,7 @@ export default function Home() {
             <div className="col-span-12 md:col-span-4 row-span-2">
               <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/images/gallery-4.jpg')}>
                 <Image
-                  src="/images/gallery-4.jpg"
+                  src="https://www.pinterest.com/pin/1970393582130366/"
                   alt="Khoảnh khắc 4"
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
@@ -184,7 +184,7 @@ export default function Home() {
             <div className="col-span-12 md:col-span-4 row-span-3">
               <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/images/gallery-5.jpg')}>
                 <Image
-                  src="/images/gallery-5.jpg"
+                  src="https://www.pinterest.com/pin/2040762327862141/"
                   alt="Khoảnh khắc 5"
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
@@ -197,7 +197,7 @@ export default function Home() {
             <div className="col-span-12 md:col-span-4 row-span-2">
               <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/images/gallery-6.jpg')}>
                 <Image
-                  src="/images/gallery-6.jpg"
+                  src="https://www.pinterest.com/pin/633387443658825/"
                   alt="Khoảnh khắc 6"
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
@@ -209,7 +209,7 @@ export default function Home() {
             <div className="col-span-12 md:col-span-4 row-span-2">
               <div className="relative w-full h-full group overflow-hidden cursor-pointer" onClick={() => openModal('/images/gallery-7.jpg')}>
                 <Image
-                  src="/images/gallery-7.jpg"
+                  src="https://www.pinterest.com/pin/485896247327412557/"
                   alt="Khoảnh khắc 7"
                   fill
                   className="object-cover transition-all duration-700 group-hover:scale-105"
@@ -222,7 +222,7 @@ export default function Home() {
               <div className="relative w-full h-full group overflow-hidden">
                 <div className="relative w-full h-full">
                   <Image
-                    src="/images/gallery-8.jpg"
+                    src="https://www.pinterest.com/pin/914862420781465/"
                     alt="Khoảnh khắc 8"
                     fill
                     className="object-cover transition-all duration-700 group-hover:scale-105 group-hover:blur-[2px]"

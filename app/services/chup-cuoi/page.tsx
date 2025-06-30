@@ -12,7 +12,7 @@ export default function ChupCuoiPage() {
         <section className="relative h-[90vh] flex items-center justify-center">
           <div className="absolute inset-0">
             <Image
-              src="/images/hero-1.jpg"
+              src="https://www.pinterest.com/pin/7459155628962373/"
               alt="Chụp ảnh cưới"
               fill
               className="object-cover"
@@ -34,7 +34,7 @@ export default function ChupCuoiPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="relative aspect-[4/5]">
                 <Image
-                  src="/images/hero-2.jpg"
+                  src="https://www.pinterest.com/pin/1618549862845300/"
                   alt="Chụp ảnh cưới nghệ thuật"
                   fill
                   className="object-cover rounded-lg"
